@@ -5,6 +5,8 @@ body{
 
 .menu {
     font-family: sans-serif;
+    font-weight: bold;
+    font-size: 80%;
 }
 .menu ul {
     list-style: none;
@@ -14,7 +16,7 @@ body{
     flex-wrap: wrap;
 }
 .menu ul li {
-    width: 11%;
+    width: 9%;
 }
 @media (max-width: 40em) {
     .menu ul li {
@@ -35,7 +37,7 @@ body{
     text-transform: uppercase;
     display: block;
     background: white;
-    padding: 10px;
+    padding: 5px;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -51,4 +53,14 @@ body{
 .menu .sub-menu > a:after {
     content: "+";
     padding-left: 1px;
+}
+
+a.support{
+    text-transform: uppercase;
+    display: block;
+    background: orange;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
