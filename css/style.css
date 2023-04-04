@@ -82,6 +82,15 @@ a.support{
     align-items: center;
 }
 
+h1{
+    text-align: justify;
+    margin-top: 0;
+}
+
+p{
+    margin-top: -1%;
+}
+
 .category{
     font-weight: bold;
     font-size: 180%;
