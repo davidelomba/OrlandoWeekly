@@ -87,16 +87,31 @@ h1{
     margin-top: 0;
 }
 
-p{
+p.main_text{
     margin-top: -1%;
 }
 
 .category{
+    display: flex;
     font-weight: bold;
     font-size: 180%;
     color: orange;
+    text-align: center;
 }
 
 .category:hover{
     color: black;
+}
+
+.category_content{
+    display:flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-top: 0;
+}
+
+p.sub_text{
+    margin-top: -3%;
 }
