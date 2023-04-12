@@ -301,3 +301,21 @@ a.events{
 .row1 img{
     margin-right: 2%;
 }
+
+.column2 button{
+    background-color: orange;
+    color: white;
+    border: white;
+    height: 100%;
+}
+
+.column2 button:hover{
+    background-color: white;
+    color: orange;
+    border: orange 1px solid;
+}
+
+.button2{
+    display: flex;
+    margin-top: 4%;
+}
