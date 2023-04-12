@@ -96,14 +96,34 @@ p.main_text{
     margin-top: -1%;
 }
 
-.category{
+.category_events{
     font-weight: bold;
     font-size: 150%;
     color: orange;
     text-align: center;
 }
 
+.category_nohover{
+    font-weight: bold;
+    font-size: 150%;
+    color: orange;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.category{
+    font-weight: bold;
+    font-size: 150%;
+    color: orange;
+    margin-top: 5%;
+    text-align: center;
+}
+
 .category:hover{
+    color: black;
+}
+
+.category_events:hover{
     color: black;
 }
 
@@ -356,3 +376,108 @@ a.events{
     color: orange;
 }
 
+.fifth_page{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column5{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.row2 h3{
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.column5 p{
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.column5 button{
+    background-color: orange;
+    color: white;
+    border: white;
+    height: 100%;
+}
+
+.column5 button:hover{
+    background-color: white;
+    color: orange;
+    border: orange 1px solid;
+}
+
+.button5{
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    height: 40px;
+}
+
+.four_image{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 2%;
+}
+
+.four_image img{
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.sixth_page{
+    margin-top: 5%;
+    border: #cccccc 10px solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.row5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.row5 img{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.last_notice{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.column_notice{
+    display: flex;
+    flex-direction: column;
+}
+
+.row_notice{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.row_notice h4:hover{
+    color: dodgerblue;
+}
