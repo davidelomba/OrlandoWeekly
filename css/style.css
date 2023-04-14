@@ -633,13 +633,9 @@ a.events{
     display: flex;
     flex-direction: row;
     margin-top: 2%;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 4%;
-}
-
-.row8_col img{
-    margin-right: 2%;
-    margin-left: 2%;
+    width: 100%;
 }
 
 .ninth_page{
@@ -935,4 +931,23 @@ a.events{
         width: 100%;
     }
 
+    .seventh_page{
+        display:none
+    }
+
+    .row8{
+        width: 100%;
+        display: flex;
+    }
+
+    .row8 img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 915px){
+    .row8_col{
+        display:inline-block;
+    }
 }
