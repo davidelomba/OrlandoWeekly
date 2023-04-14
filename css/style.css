@@ -637,9 +637,12 @@ a.events{
     }
     .main_image{
         display: flex;
-        justify-content: center;
+    }
+
+    .main_image img{
         width: 100%;
     }
+
     .second_column{
         display: flex;
         flex-direction: column;
@@ -657,11 +660,10 @@ a.events{
     .main_text{
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
     }
 
     .main_text p{
         margin: 0 0 0 0;
     }
+
 }
