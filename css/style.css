@@ -416,6 +416,18 @@ a.events{
     width: 50%;
 }
 
+.column5_third{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.column5_second{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .row2 h3{
     margin-top: 2%;
     margin-bottom: 0;
@@ -447,6 +459,46 @@ a.events{
     border: orange 1px solid;
 }
 
+.column5_second p{
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.column5_second button{
+    background-color: orange;
+    color: white;
+    border: white;
+    height: 100%;
+}
+
+.column5_second button:hover{
+    background-color: white;
+    color: orange;
+    border: orange 1px solid;
+}
+
+.column5_third p{
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.column5_third button{
+    background-color: orange;
+    color: white;
+    border: white;
+    height: 100%;
+}
+
+.column5_third button:hover{
+    background-color: white;
+    color: orange;
+    border: orange 1px solid;
+}
+
 .button5{
     display: flex;
     margin-top: 4%;
@@ -455,7 +507,6 @@ a.events{
 }
 
 .four_image{
-    flex-wrap: wrap;
     display: flex;
     margin-top: 2%;
 }
@@ -463,6 +514,11 @@ a.events{
 .four_image img{
     margin-right: 2%;
     margin-bottom: 2%;
+}
+
+.img_row{
+    display: flex;
+    flex-direction: column;
 }
 
 .sixth_page{
@@ -790,5 +846,72 @@ a.events{
         height: 100%;
     }
 
+    .fifth_page{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .column5{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2% 0 0 0;
+        align-items: center;
+        order: 1;
+    }
+
+    .column5_second{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2% 0 0 0;
+        align-items: center;
+        order: 2;
+    }
+
+    .column5_third{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2% 0 0 0;
+        align-items: center;
+        order: 3;
+    }
+
+    .row2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .best{
+        width: 100%;
+    }
+
+    .best img{
+        width: 100%;
+    }
+
+    .four_image{
+        margin: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .img_row{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+    }
+
+    .column5_third img{
+        width: 100%;
+    }
 
 }
