@@ -532,6 +532,7 @@ a.events{
     flex-direction: row;
     margin-top: 2%;
     justify-content: center;
+    width: 100%;
 }
 
 .row5 img{
@@ -911,6 +912,26 @@ a.events{
     }
 
     .column5_third img{
+        width: 100%;
+    }
+
+    .row5{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        align-items: center;
+        width: 100%;
+    }
+
+    .row5 img{
+        margin-top: 2%;
+    }
+
+    .last_notice{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        align-items: center;
         width: 100%;
     }
 
