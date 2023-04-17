@@ -526,6 +526,7 @@ a.events{
 .four_image{
     display: flex;
     margin-top: 2%;
+    width: 100%;
 }
 
 .four_image img{
