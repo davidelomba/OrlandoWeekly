@@ -795,6 +795,7 @@ a.events{
         flex-direction: column;
         width: 70%;
         max-width: 70%;
+        padding: 5% 0 0 0;
     }
 
     body{
@@ -1081,6 +1082,15 @@ a.events{
 }
 
 @media screen and (max-width: 800px) {
+
+    .body_page{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        max-width: 95%;
+    }
+
     .button_bar{
         display: flex;
         flex-direction: column;
