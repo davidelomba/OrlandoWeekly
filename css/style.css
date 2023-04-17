@@ -291,6 +291,14 @@ a.events{
 
 .first_information{
     margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_information2{
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .main_container{
@@ -311,6 +319,15 @@ a.events{
 
 .first_information:hover h3{
     color: orange;
+}
+
+.first_information2:hover h3{
+    color: orange;
+}
+
+.second_information{
+    display: flex;
+    flex-direction: column;
 }
 
 .second_information:hover h3{
@@ -572,8 +589,7 @@ a.events{
 }
 
 .notice_text p{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 0 0 0;
 }
 
 .seventh_page{
@@ -710,7 +726,7 @@ a.events{
     .second_column{
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
+        margin: 2% 0 0 0;
         align-items: center;
         width: 100%;
     }
@@ -792,10 +808,30 @@ a.events{
     .first_information{
         width: 50%;
         margin: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .first_information img{
-        width: 95%;
+        width: 95%
+    }
+
+    .first_information img{
+        width: 95%
+    }
+
+    .first_information2{
+        width: 50%;
+        margin: 0 2% 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_information{
+        width: 50%;
+        margin: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .column1_empty{
@@ -943,6 +979,11 @@ a.events{
     .row8 img{
         width: 100%;
     }
+
+    .notice_text h4{
+       margin: 0 0 0 0;
+    }
+
 
 }
 
