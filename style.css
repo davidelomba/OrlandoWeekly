@@ -596,7 +596,7 @@ a.events{
     display: flex;
     flex-direction: row;
     margin-top: 2%;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -610,7 +610,8 @@ a.events{
     flex-direction: row;
     margin-top: 15%;
     margin-bottom: 2%;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .column_notice{
@@ -1156,4 +1157,3 @@ a.events{
         justify-content: center;
     }
 }
-
