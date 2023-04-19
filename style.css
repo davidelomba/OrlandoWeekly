@@ -617,6 +617,7 @@ a.events{
 .column_notice{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .row_notice{
